@@ -11,6 +11,8 @@ print("\n 1.sumar")
 print("  2.restar")
 print(" 3.multiplicar")
 
+print (" 4 .division")
+
 opcion= input("\n seleccione una opcion ")
 
 if opcion =="1":
@@ -22,5 +24,11 @@ elif opcion == "2":
 elif opcion == "3":
   print("\n la multiplicacion es :",num1 *num2)
 
+elif opcion  =="4":
+  if num2 !=0
+  print("\n la division es :",num1/num2)
+else:      
+  print(" no se puede dividir entre cero")
+  
 else:
   print("\n opcion no valida )
